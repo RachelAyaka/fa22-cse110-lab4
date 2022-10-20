@@ -75,3 +75,10 @@
 15. == does the type conversion of the operands before comparing. === compares
     the two values and the data types of the operands.
 16. look at part2-question16.js 
+17. The result would to return a new array of [2, 4, 6]. First, we look at the
+    function modifyArray. A new empty array of newArr is created. Then, we use
+    the function doSomething to pass in each number in the array, [1, 2, 3], 
+    and get an intgeter that is the double of the number. Then, each number is
+    pushed to the newArr one by one. After all the numbers in the array has
+    been iterated, modifyArray function returns the value of newArr, [2, 4, 6].
+18. 
