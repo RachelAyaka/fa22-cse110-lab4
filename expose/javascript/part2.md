@@ -51,27 +51,27 @@
    an error because the varibale is being delared in the same scope as the
    return line. 
 12. a. student.name
-12. b. student['Grad Year']
-12. c. student.greeting()
-12. d. student['Favorite Teacher'].name
-12. e. student.courseLoad[0]
+    b. student['Grad Year']
+    c. student.greeting()
+    d. student['Favorite Teacher'].name
+    e. student.courseLoad[0]
 13. a. 32. The character "32" came out because 3 is a string and it is
     concatenated with 2. 2 is an interger and maps to their exact string
     representation
-13. b. 1. This number 1 is the output because the string is map to their exact
+    b. 1. This number 1 is the output because the string is map to their exact
     number representation. 
-13. c. 3. The null is considered absent, and the number 3 is the output. 
-13. d. 3null. The null maps to their exact string representation 
-13. e. 4 since true maps to 1.
-13. f. 0 since false maps to 0. The null is considered absent.
-13. g. 3undefined. "undefined" maps to their exact string representation.
-13. h. NaN. This stands for Not a Number. It tells us '3' is not a valid number. 
+    c. 3. The null is considered absent, and the number 3 is the output. 
+    d. 3null. The null maps to their exact string representation 
+    e. 4 since true maps to 1.
+    f. 0 since false maps to 0. The null is considered absent.
+    g. 3undefined. "undefined" maps to their exact string representation.
+    h. NaN. This stands for Not a Number. It tells us '3' is not a valid number. 
 14. a. true. '2' is converted into a number that is bigger than 1.
-14. b. false. Alphabetically 1 is less than 2. 
-14. c. true. 2 and '2' have different data types but are the same character.
-14. d. false. 2 and '2' have different types and ==== also compares data types. 
-14. e. false. true is map to 1. 1 does not equal 2. 
-14. f. true since the number 2 is converted to true. true==true -> true.
+    b. false. Alphabetically 1 is less than 2. 
+    c. true. 2 and '2' have different data types but are the same character.
+    d. false. 2 and '2' have different types and ==== also compares data types. 
+    e. false. true is map to 1. 1 does not equal 2. 
+    f. true since the number 2 is converted to true. true==true -> true.
 15. == does the type conversion of the operands before comparing. === compares
     the two values and the data types of the operands.
 16. look at part2-question16.js 
@@ -81,4 +81,8 @@
     and get an intgeter that is the double of the number. Then, each number is
     pushed to the newArr one by one. After all the numbers in the array has
     been iterated, modifyArray function returns the value of newArr, [2, 4, 6].
-18. 
+18. look at part2-question18.js 
+19. 1
+    4
+    3
+    2
